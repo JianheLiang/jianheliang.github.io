@@ -3,68 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jianhe Liang</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            display: flex;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .content {
-            flex: 2;
-            padding-right: 20px;
-        }
-        .image {
-            flex: 1;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-            margin-top: 0;
-        }
-        p, ul {
-            color: #666;
-        }
-        a {
-            color: blue;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            list-style-position: inside;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>Lola Huang - Portfolio Replica</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <h1>Jianhe Liang</h1>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">Lola Huang</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Math</a></li>
+                    <li><a href="#">TaT</a></li>
+                    <li><a href="#">Poems</a></li>
+                    <li><a href="#">Dance</a></li>
+                    <li><a href="#">Violin</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="intro">
+            <h1>Hi, I'm Lola!</h1>
+            <p>Here's a TL;DR of things I grapple with:</p>
+            <ul class="tldr-list">
+                <li>I do math.</li>
+                <li>I think about thinking with a friend from SPARC.</li>
+                <li>I write poems.</li>
+                <li>I dance.</li>
+                <li>I play the violin.</li>
+                <li>I take photos and write about them.</li>
+            </ul>
+        </section>
+
+        <div class="profile-photo">
+            <img src="https://via.placeholder.com/600x400" alt="Photo of Lola">
+        </div>
+
+        <section class="bio">
+            <p>Thank you for stopping by! I am a current senior at Shanghai Pinghe School, where I've been a student for a little over 11 years. I spend all of my waking time thinking, sometimes observing for abnormalities, sometimes probing into structures, and sometimes rationalizing human emotions.</p>
+        </section>
+
+        <section class="interests">
+            <div class="interest-block">
+                <p>I like math; I really like math. Beyond competitions, research, and writeups, I have also dedicated myself to community-building through efforts of mathematical communication. <a href="#">Read more in the Math section.</a></p>
+            </div>
+
+            <div class="interest-block">
+                <p>It's hard not to think in the meta after one's engaged with mathematics for a long-enough time. These thinking about thinking realizations have emerged since eighth grade. <a href="#">Read more in the TaT section.</a></p>
+            </div>
+
+            <div class="interest-block">
+                <p>I have been a ballerina for thirteen years, dancing currently at 11.5 hours per week after recovering from an ACL reconstruction surgery in freshman year. <a href="#">Read more in the Ballet section.</a></p>
+            </div>
+
+            <div class="interest-block">
+                <p>In my spare time, I write poems. My poems have mainly been reactions to certain emotions or reflections on mathematics. <a href="#">Read my poems in the Poetry section.</a></p>
+            </div>
             
-            <p><strong>Email:</strong> leoonwaves [at] gmail.com, liangjianhe [at] shphschool.com</p>
-            <p>I am a student at Shanghai Pinghe School, Shanghai, China. I'm interested in mathematics, music, philosophy, and physics.</p>
-            <p>I am the president of Pinghe Highschool's mathclub from 2025 to 2026. Notes and slides of my teaching of AP Calculus BC(Fall 25), talks on problem solving skills in contests, and introductory lectures in modern mathematics and be found in the link below </p>
-            <p>I am also the founder and president of Pinghe Highschool's Philosophy Club. Materials of the seminars I organized can also be found in the link below. </p>
-            <h2>Talks at Pinghe Math Club</h2>
-            <ol>
-                <li><a href="polya enumeration.pdf" download>Polya's Enumeration Theorem and Application in Contests</a></li>
-            </ol>
-                
+            <div class="interest-block">
+                <p>Sometimes when I experience grief or happiness so strong that none of math, ballet, or poetry could conquer – I would consult the violin. <a href="#">Hear me play in the Violin section.</a></p>
+            </div>
+        </section>
+
+        <section class="fun-facts">
+            <p>I have strong opinions on things people rarely care about: red pandas are the cutest animals in the world. 6197 is the most wholesome 4-digit integer. Not closing-off parentheses in texts is a sin.</p>
+        </section>
+
+        <section class="reading-list">
+            <p>Recently I've been reading heavily on AI security, programmable cryptography, music theory, and Greek history.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Web Analytics</p>
         </div>
-        <div class="image">
-            <p><img src="2fb1397cb4ad4c5626c674152f537b2.jpg"</p>
-            <!-- Replace the src attribute with your image file path, e.g., <img src="images/profile.jpg" alt="Chenglong Yu"> -->
-        </div>
-    </div>
+    </footer>
+
 </body>
 </html>
